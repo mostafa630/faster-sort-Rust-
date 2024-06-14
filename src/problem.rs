@@ -1,6 +1,6 @@
 /// <summary>
 /// Sort the given array in ascending order
-/// At least, should beat the default sorting algorithm of the C# (Array.Sort())
+/// At least, should beat the default sorting algorithm of the Rust sort
 /// </summary>
 /// <param name="arr"> array to be sorted in ascending order </param>
 /// <param name="size"> array size </param>
