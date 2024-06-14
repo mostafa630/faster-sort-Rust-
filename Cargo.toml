@@ -1,4 +1,3 @@
-workspace = { members = ["faste_sort"] }
 [package]
 name = "faster_sort"
 version = "0.1.0"
