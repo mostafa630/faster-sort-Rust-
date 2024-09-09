@@ -4,12 +4,10 @@ use std::time::{Duration, Instant};
 
 mod problem;
 
-#[cfg(test)]
-mod tests {
+pub mod tests {
     use super::*; // Import functions from outer scope
 
-    #[test]
-    fn run_all_tests_sequentially() {
+    pub fn run_all_tests_sequentially() {
         trial_tests();
         sample_tests().unwrap();
         complete_tests().unwrap();
@@ -254,5 +252,5 @@ mod tests {
 }
 
 fn main() {
-    println!("hello world!");
+    tests::run_all_tests_sequentially();
 }
